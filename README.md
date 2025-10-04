@@ -3,10 +3,9 @@
 Ce dossier contient une base SQLite minimale et une application Streamlit pour le tableau de bord.
 
 ## Prérequis
-- macOS Apple Silicon (M1/M2/M3)
-- Python 3.10+ (de préférence via Xcode CLT ou `pyenv`)
+- Python 3.10+
 
-## Installation rapide (Apple Silicon)
+## Installation rapide
 
 1) Ouvrir un terminal dans ce dossier.
 2) Créer et activer un environnement virtuel.
@@ -35,7 +34,7 @@ python db_init.py --reset
 streamlit run app.py
 ```
 
-6) Un navigateur s'ouvre sur `http://localhost:8501`. Prenez une capture d'écran du tableau de bord pour le livrable.
+6) Un navigateur s'ouvre sur `http://localhost:8501`. 
 
 ## Ce qui est inclus
 - `db_init.py` – crée `ventes.db` avec les 3 tables (clients, produits, ventes) + données démo.
